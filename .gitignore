@@ -1,0 +1,31 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+
+# Local .terraform directories
+**/.terraform/*
+!.terraform/modules
+!.terraform/providers
+
+# Terraform plan files
+*.tfplan
+
+# Local variables
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
